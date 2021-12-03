@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mlnetDevIntersectionApp", "mlnetDevIntersectionApp\mlnetDevIntersectionApp.csproj", "{09529217-949E-4C4E-9143-2A0036E1ED76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictiveMaintenanceApp", "PredictiveMaintenanceApp\PredictiveMaintenanceApp.csproj", "{3C01D5C6-1ECA-4CF6-BD71-3B2F8BB75DB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09529217-949E-4C4E-9143-2A0036E1ED76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09529217-949E-4C4E-9143-2A0036E1ED76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09529217-949E-4C4E-9143-2A0036E1ED76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09529217-949E-4C4E-9143-2A0036E1ED76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C01D5C6-1ECA-4CF6-BD71-3B2F8BB75DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C01D5C6-1ECA-4CF6-BD71-3B2F8BB75DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C01D5C6-1ECA-4CF6-BD71-3B2F8BB75DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C01D5C6-1ECA-4CF6-BD71-3B2F8BB75DB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
