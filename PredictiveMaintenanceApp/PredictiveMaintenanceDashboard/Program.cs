@@ -33,6 +33,8 @@ app.UseRouting();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
+SeedData("TelemetrySeedData.json");
+
 app.Run();
 
 void SeedData(string fileName)

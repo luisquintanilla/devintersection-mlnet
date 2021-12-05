@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.3.0" />
     <PackageReference Include="Microsoft.ML" Version="1.6.0" />
     <PackageReference Include="Microsoft.ML.FastTree" Version="1.6.0" />
   </ItemGroup>
@@ -23,6 +24,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Update="predictive-maintenance-batch.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="RaspberryTelemetry.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

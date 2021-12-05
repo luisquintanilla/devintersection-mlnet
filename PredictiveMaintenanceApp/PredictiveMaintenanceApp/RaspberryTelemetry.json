@@ -1,0 +1,512 @@
+﻿[
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.9,
+    "Rotational speed": 1398,
+    "Torque": 51.5,
+    "Tool wear": 0,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.9,
+    "Rotational speed": 1402,
+    "Torque": 37.9,
+    "Tool wear": 2,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.9,
+    "Rotational speed": 1450,
+    "Torque": 47.5,
+    "Tool wear": 9,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.9,
+    "Rotational speed": 1453,
+    "Torque": 40.8,
+    "Tool wear": 11,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 309,
+    "Rotational speed": 1469,
+    "Torque": 40.1,
+    "Tool wear": 13,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.9,
+    "Rotational speed": 1422,
+    "Torque": 47.6,
+    "Tool wear": 15,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 309,
+    "Rotational speed": 1544,
+    "Torque": 31.8,
+    "Tool wear": 25,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.9,
+    "Rotational speed": 1753,
+    "Torque": 25.8,
+    "Tool wear": 33,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.9,
+    "Rotational speed": 1830,
+    "Torque": 24.9,
+    "Tool wear": 35,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 299.1,
+    "Process temperature": 309,
+    "Rotational speed": 1450,
+    "Torque": 43,
+    "Tool wear": 40,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 308.9,
+    "Rotational speed": 1622,
+    "Torque": 31.9,
+    "Tool wear": 42,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.8,
+    "Rotational speed": 1529,
+    "Torque": 32.7,
+    "Tool wear": 53,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.8,
+    "Rotational speed": 1523,
+    "Torque": 44.4,
+    "Tool wear": 55,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.9,
+    "Rotational speed": 1852,
+    "Torque": 25,
+    "Tool wear": 57,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.8,
+    "Rotational speed": 1991,
+    "Torque": 20.7,
+    "Tool wear": 59,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.8,
+    "Rotational speed": 1555,
+    "Torque": 40.6,
+    "Tool wear": 61,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.7,
+    "Rotational speed": 1450,
+    "Torque": 43.4,
+    "Tool wear": 66,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.7,
+    "Rotational speed": 1591,
+    "Torque": 31.1,
+    "Tool wear": 68,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.7,
+    "Rotational speed": 1445,
+    "Torque": 48.5,
+    "Tool wear": 70,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.7,
+    "Rotational speed": 1572,
+    "Torque": 34.1,
+    "Tool wear": 80,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.6,
+    "Rotational speed": 1872,
+    "Torque": 22.5,
+    "Tool wear": 82,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.6,
+    "Rotational speed": 1680,
+    "Torque": 29.4,
+    "Tool wear": 95,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.6,
+    "Rotational speed": 1431,
+    "Torque": 45.7,
+    "Tool wear": 97,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.7,
+    "Rotational speed": 1564,
+    "Torque": 34.1,
+    "Tool wear": 99,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.6,
+    "Rotational speed": 1599,
+    "Torque": 33,
+    "Tool wear": 101,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.7,
+    "Process temperature": 308.5,
+    "Rotational speed": 1467,
+    "Torque": 40.7,
+    "Tool wear": 106,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.7,
+    "Rotational speed": 1433,
+    "Torque": 44.7,
+    "Tool wear": 108,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.7,
+    "Rotational speed": 1558,
+    "Torque": 41.2,
+    "Tool wear": 110,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 308.8,
+    "Rotational speed": 1310,
+    "Torque": 50.7,
+    "Tool wear": 112,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.7,
+    "Rotational speed": 1546,
+    "Torque": 43.4,
+    "Tool wear": 114,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.7,
+    "Rotational speed": 1727,
+    "Torque": 29.4,
+    "Tool wear": 116,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.6,
+    "Rotational speed": 1560,
+    "Torque": 32.2,
+    "Tool wear": 118,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 308.6,
+    "Rotational speed": 1329,
+    "Torque": 60.5,
+    "Tool wear": 120,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.6,
+    "Rotational speed": 1413,
+    "Torque": 46.5,
+    "Tool wear": 122,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 308.6,
+    "Rotational speed": 1587,
+    "Torque": 38.6,
+    "Tool wear": 124,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 308.5,
+    "Rotational speed": 1559,
+    "Torque": 34.3,
+    "Tool wear": 126,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.4,
+    "Rotational speed": 1473,
+    "Torque": 41.1,
+    "Tool wear": 128,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.4,
+    "Rotational speed": 1737,
+    "Torque": 27.7,
+    "Tool wear": 130,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.4,
+    "Rotational speed": 1369,
+    "Torque": 53,
+    "Tool wear": 138,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.7,
+    "Process temperature": 308.6,
+    "Rotational speed": 1297,
+    "Torque": 55.3,
+    "Tool wear": 148,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.6,
+    "Rotational speed": 1268,
+    "Torque": 55.8,
+    "Tool wear": 155,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 308.6,
+    "Rotational speed": 1511,
+    "Torque": 36.1,
+    "Tool wear": 157,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.7,
+    "Process temperature": 308.5,
+    "Rotational speed": 1544,
+    "Torque": 35.2,
+    "Tool wear": 159,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.5,
+    "Process temperature": 308.4,
+    "Rotational speed": 1513,
+    "Torque": 33.6,
+    "Tool wear": 172,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.4,
+    "Process temperature": 308.4,
+    "Rotational speed": 1515,
+    "Torque": 40.1,
+    "Tool wear": 179,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.4,
+    "Process temperature": 308.3,
+    "Rotational speed": 1473,
+    "Torque": 39.9,
+    "Tool wear": 184,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.4,
+    "Process temperature": 308.3,
+    "Rotational speed": 1422,
+    "Torque": 42.7,
+    "Tool wear": 186,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.4,
+    "Process temperature": 308.2,
+    "Rotational speed": 1850,
+    "Torque": 27,
+    "Tool wear": 194,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.4,
+    "Process temperature": 308.2,
+    "Rotational speed": 1528,
+    "Torque": 36.2,
+    "Tool wear": 196,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.4,
+    "Process temperature": 308.2,
+    "Rotational speed": 1471,
+    "Torque": 47,
+    "Tool wear": 214,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L123",
+    "Type": "L",
+    "Air temperature": 298.4,
+    "Process temperature": 308.2,
+    "Rotational speed": 1282,
+    "Torque": 60.7,
+    "Tool wear": 216,
+    "Machine failure": 1
+  }
+]

@@ -1,79 +1,47 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Microsoft.ML;
-using Microsoft.ML.Data;
+using System.Text.Json;
+using PredictiveMaintenanceApp;
 
-var mlContext = new MLContext();
 
-// Make a single prediction
-ModelInput singleDataPoint = new ModelInput()
+// In this case, we're using simulated data 
+// telemetry values. In the real-world, these would
+// be read from device sensors directly.
+var telemetryData = ReadData("RaspberryTelemetry.json");
+
+var telemetryService = new TelemetryService("testtelemetry");
+
+foreach (var reading in telemetryData)
 {
-    Product_ID = @"M14860",
-    Type = @"M",
-    Air_temperature = 298.1F,
-    Process_temperature = 308.6F,
-    Rotational_speed = 1551F,
-    Torque = 42.8F,
-    Tool_wear = 0F
-};
+    // Use model to make predictions
+    var result = PredictiveMaintenanceModel.Predict(reading);
 
-ITransformer mlModel = mlContext.Model.Load("PredictiveMaintenanceModel.zip", out var _);
+    // Send telemetry reading with prediction to DB
+    telemetryService.Send(reading, result);
 
-var predictionEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
+    // Handle machine failure
+    if (result.Prediction == 1)
+    {
+        HandleFailure();
+    }
+    else
+    {
+        Console.WriteLine($"Healthy system state. Telemetry sent successfully");
+    }
 
-var singlePrediction = predictionEngine.Predict(singleDataPoint);
-
-Console.WriteLine($"Single Prediction: {singlePrediction.Prediction}\n");
-
-
-// Make a batch prediction
-// Load input data:
-IDataView inputData = mlContext.Data.LoadFromTextFile<ModelInput>("predictive-maintenance-batch.txt", separatorChar: ',');
-
-// Make batch predictions with Transform method:
-IDataView predictions = mlModel.Transform(inputData);
-
-// Inspect and print the predicted values:
-float[] predictionArray = predictions.GetColumn<float>("PredictedLabel").ToArray();
-
-Console.WriteLine("Batch Predictions:");
-int i = 1;
-foreach (var prediction in predictionArray)
-{
-    Console.WriteLine($"Prediction {i}: {prediction}");
-    i++;
+    // Add a slight delay
+    Thread.Sleep(100);
 }
 
-public class ModelInput
+void HandleFailure()
 {
-    [LoadColumn(1), ColumnName(@"Product ID")]
-    public string Product_ID { get; set; }
-
-    [LoadColumn(2), ColumnName(@"Type")]
-    public string Type { get; set; }
-
-    [LoadColumn(3), ColumnName(@"Air temperature")]
-    public float Air_temperature { get; set; }
-
-    [LoadColumn(4), ColumnName(@"Process temperature")]
-    public float Process_temperature { get; set; }
-
-    [LoadColumn(5), ColumnName(@"Rotational speed")]
-    public float Rotational_speed { get; set; }
-
-    [LoadColumn(6), ColumnName(@"Torque")]
-    public float Torque { get; set; }
-
-    [LoadColumn(7), ColumnName(@"Tool wear")]
-    public float Tool_wear { get; set; }
-
-    [LoadColumn(8), ColumnName(@"Machine failure")]
-    public float Machine_failure { get; set; }
+    Console.WriteLine("Machine failure detected! Restarting machine");
 }
 
-public class ModelOutput
+IEnumerable<PredictiveMaintenanceModel.ModelInput> ReadData(string dataFilePath)
 {
-    [ColumnName("PredictedLabel")]
-    public float Prediction { get; set; }
+    var rawData = File.ReadAllText(dataFilePath);
 
-    public float[] Score { get; set; }
+    var data = JsonSerializer.Deserialize<IEnumerable<PredictiveMaintenanceModel.ModelInput>>(rawData);
+
+    return data;
 }
