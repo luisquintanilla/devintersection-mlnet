@@ -33,7 +33,7 @@ app.UseRouting();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
-SeedData("TelemetrySeedData.json");
+// SeedData("TelemetrySeedData.json");
 
 app.Run();
 
