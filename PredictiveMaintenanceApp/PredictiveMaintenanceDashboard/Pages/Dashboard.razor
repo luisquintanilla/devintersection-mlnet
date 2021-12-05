@@ -1,0 +1,106 @@
+﻿@page "/dashboard"
+@inject TelemetryDBService DBService
+
+<PageTitle>Device Telemetry</PageTitle>
+
+<h1>Device Telemetry</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+<select @bind="SelectedProductID">
+    @foreach(var id in ProductIds)
+    {
+        <option>@id</option>
+    }
+</select>
+
+@if (observations == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Air Temp.</th>
+                <th>Process Temp.</th>
+                <th>Rotational Speed</th>
+                <th>Torque</th>
+                <th>Tool Wear</th>
+                <th>Machine Failure</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var observation in filteredObservations)
+            {
+                @if(observation.MachineFailure == 1)
+                {
+                <tr style="background-color: #ff9999">
+                    <td>@observation.AirTemperature</td>
+                    <td>@observation.ProcessTemperature</td>
+                    <td>@observation.RotationalSpeed</td>
+                    <td>@observation.Torque</td>
+                    <td>@observation.ToolWear</td>
+                    <td>@observation.MachineFailure</td>
+                    </tr>
+                } else
+                {
+                    <tr>
+                        <td>@observation.AirTemperature</td>
+                        <td>@observation.ProcessTemperature</td>
+                        <td>@observation.RotationalSpeed</td>
+                        <td>@observation.Torque</td>
+                        <td>@observation.ToolWear</td>
+                        <td>@observation.MachineFailure</td>
+                    </tr>
+                }
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private IEnumerable<DeviceTelemetry>? observations;
+    private IEnumerable<DeviceTelemetry>? filteredObservations;
+    private string SelectedProductID; 
+    private IEnumerable<string> ProductIds;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var queryResults = DBService.GetAllRows();
+
+        observations =
+            queryResults.Select(r =>
+            {
+                var observation = new DeviceTelemetry();
+                observation.ProductID = r.ProductID;
+                observation.AirTemperature = Convert.ToSingle(r["AirTemperature"]);
+                observation.ProcessTemperature =Convert.ToSingle(r["ProcessTemperature"]);
+                observation.RotationalSpeed = Convert.ToSingle(r["RotationalSpeed"]);
+                observation.Torque = Convert.ToSingle(r["Torque"]);
+                observation.ToolWear = Convert.ToSingle(r["ToolWear"]);
+                observation.MachineFailure= Convert.ToSingle(r["MachineFailure"]);
+
+                return observation;
+
+            });
+
+            ProductIds = observations.Select(x => x.ProductID).Distinct();
+            SelectedProductID = ProductIds.First();
+            filteredObservations = observations.Where(x => x.ProductID == SelectedProductID);
+    }
+
+    public class DeviceTelemetry
+    {
+        public string ProductID  { get; set; }
+        public float AirTemperature {  get;  set; }
+        public float ProcessTemperature { get; set; }
+        public float RotationalSpeed {  get;  set; }
+        public float Torque { get; set; }
+        public float ToolWear { get; set; }
+        public float MachineFailure { get; set; }
+    }
+}
+

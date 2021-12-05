@@ -1,0 +1,832 @@
+[
+  {
+    "Product ID": "L47181",
+    "Type": "L",
+    "Air temperature": 298.2,
+    "Process temperature": 308.7,
+    "Rotational speed": 1408,
+    "Torque": 46.3,
+    "Tool wear": 3,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47181",
+    "Type": "L",
+    "Air temperature": 298.1,
+    "Process temperature": 308.5,
+    "Rotational speed": 1498,
+    "Torque": 49.4,
+    "Tool wear": 5,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47181",
+    "Type": "L",
+    "Air temperature": 298.2,
+    "Process temperature": 308.6,
+    "Rotational speed": 1433,
+    "Torque": 39.5,
+    "Tool wear": 7,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47181",
+    "Type": "L",
+    "Air temperature": 298.2,
+    "Process temperature": 308.7,
+    "Rotational speed": 1408,
+    "Torque": 40,
+    "Tool wear": 9,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47181",
+    "Type": "L",
+    "Air temperature": 298.1,
+    "Process temperature": 308.6,
+    "Rotational speed": 1558,
+    "Torque": 42.4,
+    "Tool wear": 14,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47181",
+    "Type": "L",
+    "Air temperature": 298.1,
+    "Process temperature": 308.6,
+    "Rotational speed": 1527,
+    "Torque": 40.2,
+    "Tool wear": 16,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 309.3,
+    "Rotational speed": 1450,
+    "Torque": 44.8,
+    "Tool wear": 63,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 309.4,
+    "Rotational speed": 1758,
+    "Torque": 25.7,
+    "Tool wear": 68,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 309.5,
+    "Rotational speed": 1861,
+    "Torque": 23.3,
+    "Tool wear": 73,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 299.1,
+    "Process temperature": 309.5,
+    "Rotational speed": 1512,
+    "Torque": 39,
+    "Tool wear": 75,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 299.1,
+    "Process temperature": 309.4,
+    "Rotational speed": 1439,
+    "Torque": 44.2,
+    "Tool wear": 82,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 309.4,
+    "Rotational speed": 1693,
+    "Torque": 30.1,
+    "Tool wear": 84,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 309.4,
+    "Rotational speed": 1798,
+    "Torque": 25.5,
+    "Tool wear": 89,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 299,
+    "Process temperature": 309.4,
+    "Rotational speed": 1419,
+    "Torque": 48.3,
+    "Tool wear": 91,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 309.3,
+    "Rotational speed": 1665,
+    "Torque": 32.5,
+    "Tool wear": 93,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1439,
+    "Torque": 39.2,
+    "Tool wear": 104,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1350,
+    "Torque": 52.5,
+    "Tool wear": 111,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1362,
+    "Torque": 45.4,
+    "Tool wear": 113,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1368,
+    "Torque": 50.8,
+    "Tool wear": 115,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1489,
+    "Torque": 49.1,
+    "Tool wear": 128,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1418,
+    "Torque": 46.3,
+    "Tool wear": 133,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "L47201",
+    "Type": "L",
+    "Air temperature": 298.9,
+    "Process temperature": 309.1,
+    "Rotational speed": 2861,
+    "Torque": 4.6,
+    "Tool wear": 143,
+    "Machine failure": 1
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.1,
+    "Process temperature": 308.6,
+    "Rotational speed": 1551,
+    "Torque": 42.8,
+    "Tool wear": 0,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.1,
+    "Process temperature": 308.6,
+    "Rotational speed": 1425,
+    "Torque": 41.9,
+    "Tool wear": 11,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.3,
+    "Process temperature": 308.7,
+    "Rotational speed": 1667,
+    "Torque": 28.6,
+    "Tool wear": 18,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.5,
+    "Process temperature": 309,
+    "Rotational speed": 1741,
+    "Torque": 28,
+    "Tool wear": 21,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.6,
+    "Process temperature": 309.1,
+    "Rotational speed": 1339,
+    "Torque": 51.1,
+    "Tool wear": 34,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.6,
+    "Process temperature": 309.2,
+    "Rotational speed": 1742,
+    "Torque": 30,
+    "Tool wear": 37,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.6,
+    "Process temperature": 309.2,
+    "Rotational speed": 1311,
+    "Torque": 46.6,
+    "Tool wear": 44,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.7,
+    "Process temperature": 309.2,
+    "Rotational speed": 1410,
+    "Torque": 45.6,
+    "Tool wear": 47,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.9,
+    "Process temperature": 309.3,
+    "Rotational speed": 1632,
+    "Torque": 32.5,
+    "Tool wear": 55,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.9,
+    "Process temperature": 309.3,
+    "Rotational speed": 1581,
+    "Torque": 30.7,
+    "Tool wear": 65,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 299,
+    "Process temperature": 309.4,
+    "Rotational speed": 1561,
+    "Torque": 37.3,
+    "Tool wear": 70,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 299.1,
+    "Process temperature": 309.5,
+    "Rotational speed": 1339,
+    "Torque": 48.2,
+    "Tool wear": 86,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1559,
+    "Torque": 34.7,
+    "Tool wear": 95,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.8,
+    "Process temperature": 309.2,
+    "Rotational speed": 1452,
+    "Torque": 48.6,
+    "Tool wear": 98,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.9,
+    "Process temperature": 309.2,
+    "Rotational speed": 1581,
+    "Torque": 36.7,
+    "Tool wear": 101,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1368,
+    "Torque": 49.1,
+    "Tool wear": 117,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.8,
+    "Process temperature": 309.1,
+    "Rotational speed": 1472,
+    "Torque": 47.5,
+    "Tool wear": 125,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.7,
+    "Process temperature": 309,
+    "Rotational speed": 1843,
+    "Torque": 25.8,
+    "Tool wear": 130,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.9,
+    "Process temperature": 309.2,
+    "Rotational speed": 1412,
+    "Torque": 44.1,
+    "Tool wear": 140,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.8,
+    "Process temperature": 309,
+    "Rotational speed": 1661,
+    "Torque": 29.5,
+    "Tool wear": 162,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.8,
+    "Process temperature": 309,
+    "Rotational speed": 1592,
+    "Torque": 38.2,
+    "Tool wear": 169,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.9,
+    "Process temperature": 309,
+    "Rotational speed": 1812,
+    "Torque": 25.9,
+    "Tool wear": 174,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.9,
+    "Process temperature": 308.9,
+    "Rotational speed": 1679,
+    "Torque": 28.7,
+    "Tool wear": 181,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M14860",
+    "Type": "M",
+    "Air temperature": 298.9,
+    "Process temperature": 309,
+    "Rotational speed": 1924,
+    "Torque": 22.6,
+    "Tool wear": 193,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.4,
+    "Process temperature": 308.2,
+    "Rotational speed": 1468,
+    "Torque": 43.8,
+    "Tool wear": 2,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.5,
+    "Process temperature": 308.3,
+    "Rotational speed": 1440,
+    "Torque": 43.6,
+    "Tool wear": 5,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.4,
+    "Process temperature": 308.2,
+    "Rotational speed": 1610,
+    "Torque": 35,
+    "Tool wear": 24,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.1,
+    "Process temperature": 308,
+    "Rotational speed": 1924,
+    "Torque": 20.8,
+    "Tool wear": 29,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.2,
+    "Process temperature": 308,
+    "Rotational speed": 1591,
+    "Torque": 33.7,
+    "Tool wear": 32,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.1,
+    "Process temperature": 308.2,
+    "Rotational speed": 1342,
+    "Torque": 48.1,
+    "Tool wear": 54,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.3,
+    "Process temperature": 308.4,
+    "Rotational speed": 1539,
+    "Torque": 43.4,
+    "Tool wear": 69,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "M15023",
+    "Type": "M",
+    "Air temperature": 298.2,
+    "Process temperature": 308.5,
+    "Rotational speed": 2678,
+    "Torque": 10.7,
+    "Tool wear": 86,
+    "Machine failure": 1
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.4,
+    "Process temperature": 308.9,
+    "Rotational speed": 1782,
+    "Torque": 23.9,
+    "Tool wear": 24,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.6,
+    "Process temperature": 309.1,
+    "Rotational speed": 1423,
+    "Torque": 44.3,
+    "Tool wear": 29,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.8,
+    "Process temperature": 309.2,
+    "Rotational speed": 1306,
+    "Torque": 54.5,
+    "Tool wear": 50,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.9,
+    "Process temperature": 309.3,
+    "Rotational speed": 1375,
+    "Torque": 42.7,
+    "Tool wear": 58,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 299.1,
+    "Process temperature": 309.4,
+    "Rotational speed": 1811,
+    "Torque": 24.6,
+    "Tool wear": 77,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.9,
+    "Process temperature": 309.2,
+    "Rotational speed": 1379,
+    "Torque": 50.7,
+    "Tool wear": 106,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.8,
+    "Process temperature": 309.2,
+    "Rotational speed": 1372,
+    "Torque": 48.5,
+    "Tool wear": 120,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.8,
+    "Process temperature": 309.2,
+    "Rotational speed": 1425,
+    "Torque": 53.9,
+    "Tool wear": 135,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.8,
+    "Process temperature": 309,
+    "Rotational speed": 1497,
+    "Torque": 43.8,
+    "Tool wear": 147,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H29424",
+    "Type": "H",
+    "Air temperature": 298.8,
+    "Process temperature": 308.9,
+    "Rotational speed": 1466,
+    "Torque": 44.1,
+    "Tool wear": 184,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298,
+    "Process temperature": 308.7,
+    "Rotational speed": 1503,
+    "Torque": 36.3,
+    "Tool wear": 5,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.2,
+    "Process temperature": 309,
+    "Rotational speed": 1371,
+    "Torque": 55.7,
+    "Tool wear": 23,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.2,
+    "Process temperature": 309,
+    "Rotational speed": 1562,
+    "Torque": 37.7,
+    "Tool wear": 36,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.1,
+    "Process temperature": 309.1,
+    "Rotational speed": 1425,
+    "Torque": 44.5,
+    "Tool wear": 49,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.1,
+    "Process temperature": 309,
+    "Rotational speed": 1438,
+    "Torque": 41.4,
+    "Tool wear": 60,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.4,
+    "Process temperature": 308.5,
+    "Rotational speed": 1398,
+    "Torque": 47.1,
+    "Tool wear": 122,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.1,
+    "Process temperature": 308.3,
+    "Rotational speed": 1530,
+    "Torque": 42,
+    "Tool wear": 184,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 297.8,
+    "Process temperature": 307.9,
+    "Rotational speed": 1600,
+    "Torque": 33.5,
+    "Tool wear": 13,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 297.8,
+    "Process temperature": 307.8,
+    "Rotational speed": 1662,
+    "Torque": 30.7,
+    "Tool wear": 48,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 297.7,
+    "Process temperature": 307.6,
+    "Rotational speed": 1538,
+    "Torque": 38.3,
+    "Tool wear": 63,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 297.9,
+    "Process temperature": 307.9,
+    "Rotational speed": 1406,
+    "Torque": 58.5,
+    "Tool wear": 93,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298,
+    "Process temperature": 307.8,
+    "Rotational speed": 1588,
+    "Torque": 35.4,
+    "Tool wear": 114,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298,
+    "Process temperature": 307.9,
+    "Rotational speed": 1482,
+    "Torque": 37.8,
+    "Tool wear": 132,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 297.9,
+    "Process temperature": 307.8,
+    "Rotational speed": 1635,
+    "Torque": 34,
+    "Tool wear": 142,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.1,
+    "Process temperature": 308,
+    "Rotational speed": 1570,
+    "Torque": 35.3,
+    "Tool wear": 159,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.2,
+    "Process temperature": 307.9,
+    "Rotational speed": 1462,
+    "Torque": 45.5,
+    "Tool wear": 171,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 298.2,
+    "Process temperature": 307.9,
+    "Rotational speed": 1491,
+    "Torque": 39.7,
+    "Tool wear": 181,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 297.9,
+    "Process temperature": 307.6,
+    "Rotational speed": 1418,
+    "Torque": 43,
+    "Tool wear": 207,
+    "Machine failure": 0
+  },
+  {
+    "Product ID": "H30926",
+    "Type": "H",
+    "Air temperature": 297.9,
+    "Process temperature": 307.4,
+    "Rotational speed": 1604,
+    "Torque": 36.1,
+    "Tool wear": 225,
+    "Machine failure": 1
+  }
+]
