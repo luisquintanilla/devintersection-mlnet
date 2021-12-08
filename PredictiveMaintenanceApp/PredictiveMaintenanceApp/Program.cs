@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Microsoft.ML.Data;
+﻿using Microsoft.ML.Data;
 using Microsoft.ML;
 
 // Initialize MLContext
@@ -9,6 +8,9 @@ var mlContext = new MLContext();
 ITransformer mlModel = mlContext.Model.Load("PredictiveMaintenanceModel.zip", out var _);
 
 Console.WriteLine("Making single prediction...");
+
+// Create Prediction Engine
+var predictionEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
 // Define model input data
 ModelInput singleDataPoint = new ModelInput()
@@ -22,19 +24,15 @@ ModelInput singleDataPoint = new ModelInput()
     Tool_wear = 1F
 };
 
-// Create Prediction Engine
-var predictionEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
-
 // Predict
 var singlePrediction = predictionEngine.Predict(singleDataPoint);
 
 Console.WriteLine($"Single Prediction: {singlePrediction.Prediction}\n");
 
-
 Console.WriteLine("Making batch predictions...");
 
 // Load input data
-IDataView inputData = mlContext.Data.LoadFromTextFile<ModelInput>("predictive-maintenance-batch.txt", separatorChar: ',');
+IDataView inputData = mlContext.Data.LoadFromTextFile<ModelInput>("predictive-maintenance-batch.txt", separatorChar: ',', hasHeader: true);
 
 // Make batch predictions with Transform method
 IDataView predictions = mlModel.Transform(inputData);
